@@ -39,4 +39,9 @@ a {
   margin-top: 5px;
 }
 
+#fileListSec a {
+  color: #10087c;
+  margin-left: 5px;
+}
+
 /*fileListSec -- end*/
