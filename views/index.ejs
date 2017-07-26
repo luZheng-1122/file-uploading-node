@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= title %></title>
+  <title>File Upload Application</title>
   <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
@@ -16,8 +16,14 @@
 </section>
 
 <section id="fileListSec">
+  <!--<p><%= filesList %></p>-->
   <ul id="fileLists">
-
+      <% for(var i=0; i< filesList.filesName.length; i++) {%>
+          <li>
+            file:<%= filesList.filesName[i]%>
+            <a href="<%= filesList.filesPath[i]%>"><%= filesList.filesPath[i]%></a>
+          </li>
+      <% } %>
   </ul>
 </section>
 

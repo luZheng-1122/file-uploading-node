@@ -26,7 +26,6 @@ var upload = multer({ storage: storage }).single('singleFile');
 
 router.post('/', function(req, res, next) {
 
-    console.log(req.file);
     upload(req, res, function (err) {
         if (err) {
             // An error occurred when uploading
@@ -34,14 +33,13 @@ router.post('/', function(req, res, next) {
             return
         }
 
-//todo: need global port number!
+        // Everything went fine
+        //todo: need global port number!
         res.json({
             success: true,
             fileName: fileName,
             path: "http://localhost:3000/uploads/" + fileName
         });
-
-        // Everything went fine
     })
 });
 
