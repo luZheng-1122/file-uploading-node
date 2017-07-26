@@ -18,7 +18,7 @@ Use MVC structure
 
 ### views
 * mainPage.ejs: main page to show when user asking, using EJS template, get data through back end rendering.
-* public/javascript/upload.js: main javascript, for handling submit event, sending upload request and appending returned files info.
+* public/javascript/mainPage.js: main javascript, for handling submit event, sending upload request and appending returned files info.
 * public/stylesheets/mainPageStyle.css: css file of mainPage
 
 ## Third Party
