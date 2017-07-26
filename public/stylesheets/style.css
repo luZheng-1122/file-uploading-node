@@ -1,8 +1,42 @@
+@import url(baseStyleSheet.css);
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+/*heading -- start*/
+header h1 {
+  font-size: 24px;
+}
+header p{
+  font-size: 18px;
+}
+
+/*heading -- end*/
 
 a {
-  color: #00B7FF;
+  color: #222;
 }
+
+/*button section -- start*/
+#buttonSec {
+  float: left;
+  margin-top: 30px;
+  width: 30%;
+  height:100%;
+}
+
+/*button section -- end*/
+
+/*fileListSec -- start*/
+#fileListSec {
+  float: right;
+  width: 50%;
+  height:100%;
+}
+
+#fileListSec li {
+  margin-top: 5px;
+}
+
+/*fileListSec -- end*/
