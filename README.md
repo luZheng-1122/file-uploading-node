@@ -22,9 +22,9 @@ Use MVC structure
 * public/stylesheets/mainPageStyle.css: css file of mainPage
 
 ## Third Party
-* express
+* express: https://www.npmjs.com/package/express
 * multer: https://github.com/expressjs/multer
-* jQuery
+* jQuery: https://jquery.com/
 
 
 
